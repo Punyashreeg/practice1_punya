@@ -9,3 +9,5 @@ int main() {
 
     if (n < 0) {
 	    cout << "❌ Factorial of a negative number doesn't exist." << endl;
+	    } else {
+        for (int i = 1; i <= n; i++) {
