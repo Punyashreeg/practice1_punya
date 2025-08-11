@@ -8,3 +8,4 @@ int main() {
     cin >> n;
 
     if (n < 0) {
+	    cout << "❌ Factorial of a negative number doesn't exist." << endl;
