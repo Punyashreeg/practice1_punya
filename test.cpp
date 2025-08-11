@@ -11,3 +11,10 @@ int main() {
 	    cout << "❌ Factorial of a negative number doesn't exist." << endl;
 	    } else {
         for (int i = 1; i <= n; i++) {
+		factorial *= i;
+        }
+        cout << "✅ Factorial of " << n << " = " << factorial << endl;
+    }
+
+    return 0;
+}
